@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kiranpreet Kaur</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <header>  
+        <h2>Kiranpreet Kaur</h2>   
+        <a href="javascript:void(0);" class="icon" onclick="responsiveMenu()">
+            <i class="fa fa-bars"></i>
+        </a>   
+        <nav>            
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact Me</a>
+        </nav>        
+    </header>
+    
+    <main>
+        <section id="top">
+            <article>
+                <div class="container text-center">
+                    <img src="./assets/img/kamalpreet.jpeg" class="my-photo" alt="Kiranpreet Kaur" />
+                    <h1 class="main-name">Kiranpreet Kaur Marahar</h1>
+                    <p class="top-btns">
+                        <a href="assets/resume.pdf" class="btn btn-green">Resume</a>
+                        <a href="#contact" class="btn btn-red">Contact Me</a>
+                    </p>
+                    <blockquote>
+                        <q>
+                            The only way of discovering the limits of the possible is to venture a little way past them into the impossible.
+                        </q>
+                    </blockquote>                    
+                </div>          
+            </article>
+        </section>
+        <section id="about" class="card">
+            <article>
+                    <div class="half">
+                        <div class="container">
+                            <h2>About Me and Academic Honesty</h2>
+                            <p>
+                                I declare that my assessment is wholly my own work in accordance with Seneca Academic Policy. No part of this assessment has been copied manually or electronically from any other source (including web sites) except for the information supplied by the WEB222 instructors and / or made available in this assessment for my use. I also declare that no part of this assignment has been distributed to other students.
+                            </p>
+                            <strong>Date:</strong> <span>Dec 4, 2022</span>
+                        </div>
+                    </div>
+                    <div class="half">
+                        <div class="container">
+                            <h2>Basic Information</h2>
+                            <ul class="basic-info">
+                                <li>
+                                    <strong>Age: </strong> 19
+                                </li>
+                                <li>
+                                    <strong>Email: </strong> kmarahar@myseneca.ca
+                                </li>
+                                <li>
+                                    <strong>Language: </strong> English
+                                </li>
+                                <li>
+                                    <strong>Class Section: </strong> ZAA
+                                </li>
+                                <li>
+                                    <strong>Student Id: </strong> 166956219
+                                </li>
+                                <li>
+                                    <strong>Instructor: </strong> Mr Mauth Alzghool
+                                </li>
+                            </div>
+                        </div>
+                    </div>   
+            </article>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <article class="card">
+                <div class="one-third dark-bg text-center">
+                    <p>2022 - 2023 (Expected)</p>
+                    <h3>Diploma</h3>
+                </div>
+                <div class="two-third">
+                    <div class="container">
+                        <h3>Diploma Course in Computer Programming (CPP)</h3>
+                        <span>SENECA COLLEGE</span>
+                        <p>Under the supervision of Mr Muath Alzghool</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+        
+        <section id="skills" class="card">
+            <article>
+                <div class="half">
+                    <div class="container">
+                        <h2>Favourite Programming Languages</h2>
+                        <ol class="programming">
+                            <li>C++</li>
+                            <li>Java</li>
+                            <li>Python</li>
+                            <li>Javascript</li>
+                            <li>PHP</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="half">
+                    <div class="container">
+                        <h2>My Skills</h2>
+                        <div class="basic-info">
+                            <ul class="skills">
+                                <li>
+                                    Customer Relations 
+                                </li>
+                                <li>
+                                    Customer Assistance
+                                </li>
+                                <li>
+                                    Order and Refund Processing
+                                </li>
+                                <li>
+                                    Cash Counting
+                                </li>
+                                <li>
+                                    Clear Instruction and Communication
+                                </li>
+                                <li>
+                                    Price Identification
+                                </li>
+                                <li>
+                                    Inspiring Love of Learning
+                                </li>
+                                <li>
+                                    Test Preparation and Test-Taking Strategies
+                                </li>
+                                <li>
+                                    Academic Performance Improvement
+                                </li>
+                                <li>
+                                    Teamworker
+                                </li>
+                                <li>
+                                    Building Rapport and Trust
+                                </li>
+                                <li>
+                                    Fluently speaks English
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>   
+            </article>
+        </section>
+        <section id="contact">
+            <h2>Use the form below to contact me</h2>
+            <form class="contact-form" action="https://httpbin.org/post" method="post">
+                <div class="input-row">
+                    <p>
+                        Name*
+                    </p>
+                    <input type="text" max="50" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="input-row">
+                    <p>
+                        Email Address*
+                    </p>
+                    <input type="email" max="100" name="email" placeholder="Your Email Address" required>
+                </div>
+                <div class="input-row">
+                    <p>
+                        Street Address*
+                    </p>
+                    <input type="text" max="150" name="street" placeholder="Your Street Address" required>
+                </div>
+                <div class="input-row">
+                    <p>
+                        City*
+                    </p>
+                    <input type="text" max="40" name="city" placeholder="Your City" required>
+                </div>
+                <div class="input-row">
+                    <p>
+                        Province*
+                    </p>
+                    <input type="text" max="40" name="province" placeholder="Your Province" required>
+                </div>
+                <div class="input-row">
+                    <input type="radio" name="about" value="Job" onclick="revealOther()">
+                    <label>Job Offer</label>
+                    <input type="radio" name="about" value="School" onclick="revealOther()">
+                    <label>School</label>
+                    <input type="radio" name="about" value="Other" id="other-radio" onclick="revealOther()">
+                    <label for="javascript">Other</label>
+                </div>
+                <div class="input-row" id="other">
+                    <p>
+                        What is it about?
+                    </p>
+                    <input type="text" max="60" name="other" placeholder="The reason">
+                </div>
+                <div class="input-row">
+                    <p>
+                        Your Message*
+                    </p>
+                    <textarea name="msg" required></textarea>
+                </div>
+                <div class="input-row">
+                    <p>
+                        Your Phone
+                    </p>
+                    <input type="tel" name="Phone" placeholder="Your Phone Number">
+                </div>
+                <div class="input-row">
+                    <input type="submit" value="Send">
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+	<script src="assets/script.js"></script>
+  </body>
+</html>
